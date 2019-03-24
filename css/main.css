@@ -1,0 +1,215 @@
+
+/***** BASE STYLES *****/
+body {
+  font-family: 'Merriweather', serif;
+  color: #2b2b2b;
+}
+
+header {
+  height: 800px;
+}
+
+#about {
+  height: 1050px;
+  margin: 0 auto;
+}
+
+#portfolio {
+  height: 750px;
+}
+
+#contact {
+  height: 525px;
+}
+
+#footer {
+  height: 25px;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 100px 0 10px 0;
+}
+
+h4 {
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 10px 0;
+}
+
+p {
+  font-size: 16px;
+}
+
+/***** GRID *****/
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+ }
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER *****/
+
+header {
+  background: #EDE6DA;
+  margin: 0;
+  padding: 0;
+}
+
+header .full-width {
+  margin: 0px 0px 0px 75px;
+  padding: 0;
+}
+
+nav {
+    margin: 0px 0px 100px 675px;
+    clear: both;
+    padding: 50px 5px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #2b2b2b;
+    padding-left: 25px;
+    font-family: 'Merriweather', serif;
+}
+
+nav ul li a:hover {
+  color: #59234A;
+}
+
+figure {
+  float: left;
+  margin: 0px 20px 0px 0px;
+  padding: 0;
+}
+
+header h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 64px;
+  color: #2b2b2b;
+  margin: 0;
+  padding: 0;
+}
+
+header span {
+  color: #59234A;
+}
+
+header h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 36px;
+  color: #2b2b2b;
+  margin-top: 40px;
+}
+
+/***** ABOUT *****/
+
+#about {
+  background: #300C2E;
+  text-align: center;
+  color: #D6BFBA;
+  margin: 0px;
+  padding: 0px;
+}
+
+#about p {
+  width: 600px;
+  text-align: center;
+  margin: 15px auto 15px auto;
+}
+
+#about img {
+  border: 3px solid #D6BFBA;
+  margin: 10px 0 10px 0;
+}
+
+/***** PORTFOLIO *****/
+
+#portfolio {
+  background: #EDE6DA;
+  text-align: center;
+  color: #2b2b2b;
+  margin: 0px;
+  padding: 0px;
+}
+
+#portfolio .third-width {
+  margin: 50px 0px 10px 0px;
+}
+
+#portfolio img {
+  border: 1px solid #2b2b2b;
+  margin-bottom: 15px;
+}
+
+/***** CONTACT *****/
+
+#contact {
+  background: #300C2E;
+  text-align: center;
+  color: #D6BFBA;
+  margin: 0px;
+  padding: 0px;
+}
+
+#contact h4 {
+  margin: 50px 0 30px 0;
+  text-align: center;
+}
+
+#contact a {
+  text-decoration: none;
+  color: #D6BFBA;
+  font-size: 16px;
+}
+
+#contact p {
+  line-height: 8px;
+}
+
+#contact ul li {
+   display: inline-block;
+   text-align: center;
+   padding-right: 40px;
+}
+
+/***** FOOTER *****/
+
+
+footer {
+  background: #300C2E;
+  text-align: center;
+  color: #D6BFBA;
+  margin: 0px;
+  padding: 0px;
+}
+
+footer p {
+  font-size: 14px;
+}

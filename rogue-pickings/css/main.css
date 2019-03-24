@@ -1,0 +1,132 @@
+/****** BASE STYLES ******/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 16px;
+}
+
+
+/****** GRID ******/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+  width: 600px;
+  float: left;
+}
+.third-width {
+  width: 399px;
+  float: left;
+  height: 200px;
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+  border-right: 1px solid #dedbdc;
+  margin-bottom: 25px;
+}
+
+/****** HEADER ******/
+
+header {
+  height: 100px;
+  text-transform: uppercase;
+}
+
+header h1 {
+  font-size: 30px;
+  padding: 25px 0 25px 0;
+}
+
+header span {
+  color: #77a466;
+}
+
+header nav {
+  float: right;
+  padding-top: 40px;
+}
+
+nav ul li{
+  display: inline-block;
+
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: #77a466;
+  padding-left: 20px;
+}
+
+/****** TOP SECTION ******/
+
+#top-section {
+  height: 500px;
+}
+
+#top-section img {
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+  margin-bottom: 5px;
+}
+
+#top-section h2 {
+  text-transform: uppercase;
+  color: #77a466;
+  font-size: 18px;
+  margin-bottom: 5px;
+  }
+
+#top-section p {
+  line-height: 21px;
+  width: 1175px;
+}
+
+/****** BOTTOM SECTION ******/
+
+#bottom-section h3 {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 15px 20px 10px 15px;
+}
+
+#bottom-section ul {
+  list-style-type: none;
+  color: #77a466;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+#bottom-section li {
+  margin-bottom: 5px;
+  padding-left: 15px;
+}
+
+#bottom-section p {
+  padding-left: 15px;
+}
+
+#contact {
+  border-right: none;
+}
+
+/****** FOOTER ******/
+
+footer {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+footer span {
+  color: #77a466;
+  text-transform: none;
+  font-family: 'Dancing Script', cursive;
+}
